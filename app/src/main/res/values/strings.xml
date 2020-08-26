@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GbemisolaTakuro</string>
+    <string name="blue_car">Blue car</string>
+    <string name="car_owner_filter">Car Owner Filter</string>
+</resources>

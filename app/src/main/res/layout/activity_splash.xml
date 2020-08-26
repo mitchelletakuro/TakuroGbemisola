@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#B0E2FF"
+    tools:context=".ui.splash.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_iv"
+        android:layout_width="262dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:contentDescription="@string/blue_car"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/splash_car" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:fontFamily="@font/vollkorn_bold"
+        android:text="@string/car_owner_filter"
+        android:textColor="#FF9800"
+        android:textSize="36sp" />
+
+</LinearLayout>
